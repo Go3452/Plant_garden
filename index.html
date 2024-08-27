@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>plants garden</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        
+        <a href="#" class="nav__logo"><img src="/images/LOGO1.jpg"/>VedicShala</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#explore" class="nav__link">Explore</a>
+            </li>
+            <li class="nav__item">
+              <a href="#faqs" class="nav__link">FAQs</a>
+            </li>
+            <li class="nav__item">
+              <i class="ri-search-line" id="search-btn"></i>
+              <a href="#search" class="nav__link">Search</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+          <div class="nav-close" id="navclose">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!--toggle-->
+
+        <div class="nav-heart" id="heart">
+          <i class="ri-heart-3-fill" style="color: red;"></i>
+        </div>
+        <div class="nav-user" id="user">
+          <i class="ri-user-line"></i>
+        </div>
+        <div class="nav-toggle" id="idtoggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <img src="/images/bg-plant1.jpg" alt="img" class="main-img" />
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              VedicShala <br />
+              
+            </h1>
+            <h2 class ="h2__home">Welcome to the Garden of Oushadhi.</h2>
+            <p class="home__description">
+              Step into the Digital Oasis of Herbal Wisdom, explore a Garden of Virtual Haven.
+            </p>
+            <a href="#explore" class="button button--flex">
+              Explore <i class="ri-arrow-right-down-line button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section_header">
+            <h2 class="section_h2">About Us</h2>
+            <p class="section_p">At VedicShala, we bring the ancient wisdom of AYUSH right to your fingertips. Our Virtual Herbal Garden is designed to offer an immersive and educational journey into the world of medicinal plants.</p>
+          </div>
+          <div class="about_container">
+            <div class="about_item">
+              <div class="about_img_box">
+                <img src="/images/plant.png" alt="" class="about_item_img" />
+              </div>
+              <h4 class="about_item_title">Interactive Learning</h4>
+              <p class="about_item_text">
+                Explore realistic 3D models of medicinal plants, allowing you to view them from every angle and gain a deeper understanding of their significance.
+              </p>
+            </div>
+            <div class="about_item">
+              <div class="about_img_box">
+                <img src="/images/book-read-line.png" alt="" class="about_item_img" />
+              </div>
+              <h4 class="about_item_title">Comprehensive Information</h4>
+              <p class="about_item_text">
+                We provide detailed insights on each plant, including its botanical and common names, habitat, medicinal uses, and cultivation methods.
+
+              </p>
+            </div>
+            <div class="about_item">
+              <div class="about_img_box">
+                <img src="./images/search-line.png" alt="" class="about_item_img" />
+              </div>
+              <h4 class="about_item_title"> Advanced Search Options</h4>
+              <p class="about_item_text">
+                Easily find specific plants or filter them based on various criterias such as health, medicinal use, flowers, etc. ensuring a user-friendly experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">     
+<!--explore-->
+
+  <!-- ========== Start explore Section ========== -->
+
+  <section class="explore container" id="explore">
+    <div class="">
+      <h2 class="section-common--heading">Explore Our Herbal Garden</h2>
+    </div>
+    <div class="plant-contain">
+      <div class="plant" data-name="p1">
+        <img src="/images/aloevera.jpg"alt="">
+        <h3>Aloe Vera</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Aloe barbadensis miller</div>
+             
+<div class="habitat"><span>Habitat:</span> Arid Regions</div>
+<div class="use"><span>Medicinal Use: </span>Soothes skin burns</div>
+        <div class="category"><span>Category:</span> Medicinal use, Leaves</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+
+      <div class="plant" data-name="p2">
+        <img src="/images/lavender.png"alt="">
+        <h3>Lavender</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Lavandula angustifolia</div>
+              
+<div class="habitat"><span>Habitat:</span> Mediterranean regions and temperate areas</div>
+<div class="use"><span>Medicinal Use:</span> Relieves stress and supports sleep quality</div>
+        <div class="category"><span>Category:</span> Leaves</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+
+      <div class="plant" data-name="p3">
+        <img src="/images/tulsi.png"alt="">
+        <h3>Tulsi</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Ocimum sanctum</div>
+              
+<div class="habitat"><span>Habitat:</span> Tropical and subtropical regions</div>
+<div class="use"><span>Medicinal Use:</span> Relieves stress and supports sleep quality</div>
+        <div class="category"><span>Category:</span> Leaves</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+
+      <div class="plant" data-name="p4">
+        <img src="/images/chamomile.jpeg"alt="">
+        <h3>German Chamomile</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Matricaria chamomilla</div>
+             
+<div class="habitat"><span>Habitat:</span> Temperate regions</div>
+<div class="use"><span>Medicinal Use:</span> Relieves digestive issues</div>
+        <div class="category"><span>Category:</span> Medicinal use, Flowers</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+
+      <div class="plant" data-name="p5">
+        <img src="/images/ashwagandha.jpg"alt="">
+        <h3>Ashwagandha</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Withania somnifera</div>
+            
+<div class="habitat"><span>Habitat:</span> Dry regions</div>
+<div class="use"><span>Medicinal Use:</span>Reduces stress</div>
+        <div class="category"><span>Category:</span> Medicinal use, Roots</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+      
+      <div class="plant" data-name="p6">
+        <img src="/images/turmeric.jpg"alt="">
+        <h3>Turmeric</h3>
+        <div class="productRating">
+          <i class="ri-heart-3-line" style="color: red;"></i>
+            </div>
+        <div class="botanical"><span>Botanical Name:</span> Curcuma longa</div>
+              
+<div class="habitat"><span>Habitat:</span> Tropical regions</div>
+<div class="use"><span>Medicinal Use:</span> Reduces inflammation and supports joint health</div>
+        <div class="category"><span>Category:</span>Medicinal use</div>
+        <button class="button" type="button">Know More!!!</button>
+      </div>
+
+    </div>
+    
+         
+      </section>
+
+     
+
+  <!-- ========== End explore Section ========== -->
+
+  
+      <!--==================== QUESTIONS ====================-->
+      <section class="questions section" id="faqs">
+        <h2 class="section__title-center questions__title container">
+          Need a hand? <br />
+         We've got you!!
+        </h2>
+
+        <div class="questions__container container grid">
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  What is the purpose of the Virtual Herbal Garden?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  The Virtual Herbal Garden is designed to provide an interactive and educational platform for users to explore, learn, and understand the medicinal plants used in AYUSH (Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy) from the comfort of their homes.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How can I interact with the 3D models of the plants?
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  You can rotate, zoom, and explore each 3D model by using your mouse or touchscreen. This feature allows you to view the plants from different angles and examine their unique characteristics in detail.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  Where can I find detailed information about each plant?                  
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+               Each plant featured in the Virtual Herbal Garden includes a dedicated section with comprehensive details such as its botanical name, common names, habitat, medicinal uses, and cultivation methods. Simply click on a plant to access this information.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">Can I search for specific plants in the Virtual Herbal Garden?
+
+                  </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                
+                  Yes, the website includes advanced search and filter options, allowing you to easily locate specific plants based on criteria such as health, medicinal use, flowers, roots and more.
+                  
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">Is there any multimedia content available?
+
+                  </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  
+                  Absolutely! The Virtual Herbal Garden offers high-quality images,3d model, and descriptions for each plant to provide a more immersive and informative experience.
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header">
+                <i class="ri-add-line questions__icon"></i>
+                <h3 class="questions__item-title">
+                  How can I use the information provided on this website?
+
+                </h3>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  
+                  The information provided is intended for educational purposes. While it can help you learn about the medicinal uses and cultivation of various plants, always consult a qualified healthcare professional before using any plants for medicinal purposes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <!--search-->
+      <div class="searchbar" id="search">
+         <!-- Search Bar start -->
+         <div class="search-bar">
+           <!-- Dropdown start -->
+           <div class="dropdown">
+             <div id="drop-text" class="dropdown-text">
+               <span id="span">Explore Plants</span>
+               <i id="icon" class="ri-arrow-down-s-line"></i>
+             </div>
+             <ul id="list-drop" class="dropdown-list">
+               <li class="dropdown-list-item">Filter : </li>
+               <li class="dropdown-list-item">Videos</li>
+               <li class="dropdown-list-item">Community</li>
+               <li class="dropdown-list-item">Playlists</li>
+               <li class="dropdown-list-item">Shorts</li>
+             </ul>
+           </div>
+           <!-- Dropdown ends -->
+     
+           <!-- Search box input start -->
+           <div class="search-box">
+             <input type="text" id="search-input" placeholder="Search..." />
+             <i class="ri-search-line"></i>
+           </div>
+           <!-- Search box input ends -->
+         </div>
+      </div>
+         <!-- Search Bar ends -->
+    
+    <!--==================== FOOTER contact ====================-->
+    <footer class="footer" id="contact">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="#logo" class="nav__logo"><img src="/images/LOGO1.jpg"/><h3>VedicShala</h3></a>
+
+          <p class="footer_p">
+            Welcome to the Garden of Oushadhi.
+          </p>
+        <div class="icons">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-line"></i></a>
+          <a href="#"><i class="ri-facebook-circle-line"></i></a>
+        </div>
+        </div>
+        <div class="footer_item">
+          <div class="footer_item_title">Information</div>
+          <ul class="footer_list">
+            <li class="footer_list_item"><a href="#">About Us</a></li>
+            <li class="footer_list_item"><a href="#">Explore</a></li>
+            <li class="footer_list_item"><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <div class="footer_item_title">Company</div>
+          <ul class="footer_list">
+            <li class="footer_list_item"><a href="#">Communtiy</a></li>
+            <li class="footer_list_item"><a href="#">Careers</a></li>
+            <li class="footer_list_item"><a href="#">Our Story</a></li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <div class="footer_item_title">Contact</div>
+          <ul class="footer_list">
+            <li class="footer_list_item"><a href="#">Getting Starded</a></li>
+            <li class="footer_list_item"><a href="#">Benefits</a></li>
+            <li class="footer_list_item"><a href="#">Resources</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer_copy">
+        <p>@2023 VedicShala | All Rights Reserved</p>
+      </div>
+    </footer>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
